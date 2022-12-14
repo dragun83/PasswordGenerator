@@ -7,7 +7,7 @@ pas=''
 
 def set_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('Len',  nargs='?',default = 16,  type=int, help='Leng of password...')
+    parser.add_argument('Len',  nargs='?',default = 16,  type=int, help='Length of password...')
     return parser
 
 params = set_parser().parse_args()
